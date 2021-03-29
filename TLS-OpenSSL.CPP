@@ -6,11 +6,7 @@
 #include <openssl/ssl.h>
 #include <openssl/err.h>
 
-//Not sure what headers are needed or not
-//This code (theoretically) writes "Hello World, 123" to a socket over a secure TLS connection
-//compiled with g++ -Wall -o client.out client.cpp -L/usr/lib -lssl -lcrypto
-//Based off of: https://www.cs.utah.edu/~swalton/listings/articles/ssl_client.c
-//Some of the code was taken from this post: https://stackoverflow.com/questions/52727565/client-in-c-use-gethostbyname-or-getaddrinfo
+
 
 const int ERROR_STATUS = -1;
 
